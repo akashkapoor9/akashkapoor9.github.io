@@ -1,0 +1,37 @@
+
+            @import url("http://fonts.googleapis.com/css?family=Oswald&subset=latin,latin-ext");
+            @import url(font-awesome.min.css);@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i);
+            @import url(https://fonts.googleapis.com/css?family=Roboto);
+            /* Custom CSS */
+            .dot {
+                height: 25px;
+                width: 25px;
+                border:1;
+                border-color: rgb(163, 150, 150);
+                
+                border-radius: 50%;
+                display: inline-block;
+            }
+            .ws-title{
+                    
+                display:block;
+                bottom:35px;
+                margin-right:5px;
+                background:none;
+                color:#FFFFFF;
+                z-index:50;
+                font-family:'Oswald', Impact, Charcoal, sans-serif;
+                font-size:35px;line-height:42px;font-weight:normal;
+                text-transform:uppercase;text-shadow:0 2px 5px rgba(0, 0, 0, 0.5);
+                border-radius:0;opacity:1;}
+            /*Override Bootstap*/
+             .uk-section-secondary {
+                background: #6889a0;
+            }
+            .uk-offcanvas-bar {
+                background-color: #6889a0;
+            }
+            h5, h3, h4 {
+                font-family:'Roboto', sans-serif;
+            }
+                

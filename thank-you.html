@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NAPA - Furnished Suites Locations</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <!--UIKit Stylesheet and JavaScript-->
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+        <link rel="stylesheet" href="https://fengyuanchen.github.io/datepicker/css/datepicker.css">
+        <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+    
+    </head>
+    <body>
+        
+        <!--NAV BAR-->
+            <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+                <nav class="uk-navbar-container" uk-navbar style="position: relative; z-index: 980; width:100%; height: 75px;  ">
+                    
+                    <div class="uk-navbar-left uk-margin-left">
+                        <a href="index.html"><img src="images/napa-logo-large.png" width="150" style="overflow:visible;padding: 5px;"></a>
+           
+                         </div>
+                    <div class="uk-navbar-right uk-margin-right">
+                        <i class="fas fa-phone-volume"></i>&nbsp;<a href="tel:416-821-5399"> 416-821-5399 </a>&nbsp; &nbsp; 
+                        <span class="uk-visible@m"><i class="fas fa-envelope "></i>&nbsp;<a href="mailto:info@accommodationsrental.com">info@accommodationsrental.com</a></span>
+                           
+                       
+                        <a class="uk-navbar-toggle uk-navbar-item uk-hidden@s" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a>
+                    
+                        <a class="uk-navbar-toggle uk-navbar-item uk-visible@m" href="#offcanvas-nav" data-uk-toggle >
+                            <span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span>
+                            
+                        </a>
+                    </div>
+                    
+                      
+                    
+                </nav>
+            </div>
+        <!-- /NAV BAR -->
+        <!--SLIDESHOW CAROUSEL-->
+                    <div class="uk-hidden@s uk-margin-bottom">
+                        <img src="images/furnished-apartment-mississauga-1.jpg" alt="" width="100%" > 
+                    </div>
+                    <div uk-slideshow="animation: push; autoplay: true; max-height:400" class="uk-visible@m">
+
+                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                    
+                            <ul class="uk-slideshow-items">
+                                <li>
+                                    <img src="images/furnished-apartment-mississauga-1.jpg" alt="" width="100%" >
+                                    <div class="uk-overlay uk-light uk-position-bottom ws-title">
+                                        <h3 class="uk-margin-remove ws-title">FULLY FURNISHED</h3>
+                                        <p class="uk-margin-remove">Family and Corporate Apartments</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="images/serviced-apartments-mississauga-2.jpg" alt="" width="100%" >
+                                    <div class="uk-overlay uk-light uk-position-bottom ws-title">
+                                        <h3 class="uk-margin-remove ws-title">MISSISSAUGA'S LEADING</h3>
+                                        <p class="uk-margin-remove">FURNISHED APARTMENTS PROVIDER</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="images/mississauga-furnished-suites-3.jpg" alt="" width="100%" >
+                                    <div class="uk-overlay uk-light uk-position-bottom ws-title">
+                                        <h3 class="uk-margin-remove ws-title">UNPARALLED VIEWS</h3>
+                                        <p class="uk-margin-remove">Like no other</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="images/furnished-accommodations-4.jpg" alt="" width="100%" >
+                                    <div class="uk-overlay uk-light uk-position-bottom ws-title">
+                                        <h3 class="uk-margin-remove ws-title">CORPORATE SERVICED APARTMENTS</h3>
+                                        <p class="uk-margin-remove">Mississauga and Toronto</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="images/toronto-furnished-apartments-5.jpg" alt="" width="100%" >
+                                    <div class="uk-overlay uk-light uk-position-bottom ws-title">
+                                        <h3 class="uk-margin-remove ws-title">OPEN DOORS</h3>
+                                        <p class="uk-margin-remove">To complete satisfaction</p>
+                                    </div>
+                                </li>
+                            </ul>
+                    
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                            
+                        </div>
+                        <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin-bottom"></ul>
+                    </div>
+        <!-- /SLIDESHOW CAROUSEL -->
+        
+        <!-- Thank you -->
+                     <section class="uk-section uk-section-large">
+                         <div class="uk-container">
+                         <div class="uk-card uk-card-default uk-card-body">
+                             <center>
+                            <span class="uk-icon-button" uk-icon="icon: check; ratio: 3.5"></span>
+                            <h2>Thank you!</h2>
+                            <h3 class="uk-text-lighter">Your request has been submitted. You should hear back within 24 hours with rates and availability. For immediate bookings call us at 1-416-821-5399.</h3 c>
+                            <button class="uk-button-large uk-button-secondary uk-border-pill" onclick="goBack()">Return to previous page</button>
+                                <script>
+                                function goBack() {
+                                   window.history.back();
+                                }
+                                </script>
+                            </center>
+
+                        </div>
+                        </div>
+                    </section>
+        <!-- /Thank you -->
+        
+        <!-- FOOTER -->
+		<footer class="uk-section uk-section-muted uk-padding-remove-bottom">
+		
+			<div class="uk-text-center uk-padding uk-padding-remove-horizontal">
+                North American Private Accommodations Inc.<br/>
+                3888 DUKE OF YORK BLVD  Suite#2836<br/>
+                Mississauga, ON<br/>
+				<span class="uk-text-small uk-text-muted">&copy; <a href="http://www.accommodationsrental.com">N.A.P.A Inc</a></span>
+			</div>
+		</footer>
+	<!-- /FOOTER -->
+   <!-- OFFCANVAS -->
+		<div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: false">
+			<div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
+				<button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button>
+				<ul class="uk-nav uk-nav-default">
+					<li class="uk-active"><a href="index.html"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: home"></span>Home</a></li>
+                    <li><a href="locations.html">Locations</a>
+                    <li><a href="apartment-benefits.html">Benefits of Furnished Apartments</a>
+                    <li><a href="gallery.html">Gallery</a>
+                    <li class="uk-nav-divider"></li>
+                    <li><a href="tel:416-821-5399"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: phone"></span> 416-821-5399 </a></li>
+                    <li><a href="mailto:info@accommodationsrental.com"><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: mail"></span>info@accommodationsrental.com</a></li>
+                    <li class="uk-nav-divider"></li>     
+				</ul>
+				<h4><span class="uk-margin-small-right uk-icon" data-uk-icon="icon: star"></span>2020 DEALS</h4>
+				<p>Book one bedroom furnished apartment from $99 per night in Mississauga.</p>
+			</div>
+		</div>
+    <!-- /OFFCANVAS -->
+    <!-- SCRIPTS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="https://fengyuanchen.github.io/datepicker/js/datepicker.js"></script>
+        <script>
+
+            UIkit.util.ready(function () {
+        
+                var bar = document.getElementById('js-progressbar');
+        
+                var animate = setInterval(function () {
+        
+                    bar.value += 10;
+        
+                    if (bar.value >= bar.max) {
+                        clearInterval(animate);
+                    }
+        
+                }, 1000);
+        
+            });
+        
+        </script>
+        <!-- /SCRIPTS -->          
+    </body>
+</html>
